@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#outer {
+  width: 50vw;
+  height: 80vh;
+  border: 10px solid rgb(41, 40, 40);
+  border-radius: 20px;
+}
+
+#screen{
+  width: 50vw;
+  height: 20vh;
+  background-color: rgb(197, 197, 197);
+  border-radius: 4px;
+  font-size: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(78, 77, 77);
+}
+#buttons{
+  border-radius: 4px;
+  height: 60vh;
+  width: 50vw;
+  background-color:  rgb(85, 85, 85);
+  display: flex;
+  
+}
+#numbers{
+  padding: 15px;
+    width: 30vw;
+  display: grid;
+grid-template-columns: auto auto auto;
+
+}
+
+#no{
+  padding: 15px;
+  margin: 2px ;
+  border: 5px solid black;
+  color:rgb(253, 243, 243);
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(58, 57, 57, 0.726);
+}
+
+
+#cal{
+  padding: 15px;
+  width: 30vw;
+display: grid;
+grid-template-columns: auto auto;
+}
+
+#key{
+  padding: 15px;
+  margin: 2px ;
+   border: 1px solid black; 
+  color:rgb(253, 243, 243);
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#cal>:last-child{
+  background-color: rgb(69, 69, 223);
+  /* max-width: 100%; */
+  grid-column: span 2;
+  
+}
+
+
